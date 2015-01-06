@@ -1,0 +1,315 @@
+/*header*/
+#header {
+    background-color:maroon;
+    text-align:left;
+    border-radius: 15px;
+    padding:10px;
+    height: 50px;
+  }
+  h1{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  h2{
+    text-align: center;
+    font-size: 30px;
+    color: #F2E7E7;
+  }
+  h3{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Copperplate Gothic Light Regular';
+    color: white;
+  }
+  h4{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Copperplate Gothic Light Regular';
+  }
+  h5{
+    text-align: center;
+    font-size: 30px;
+    color: #F2E7E7;
+    font-family: 'Copperplate Gothic Light Regular';
+  }
+  p{
+    text-align: left;
+    font-family: 'Chaparral Pro Light';
+    font-size: 17px;
+    color: #F2E7E7;
+  }
+
+
+
+/*student portal*/
+  #student-portal {
+    margin-top: 15px;
+    margin-left: 750px;
+    width: 350px;
+    height: 400px;
+    background-color: maroon; 
+    color: white; 
+    text-align: center; 
+    border-radius: 25px; 
+
+    display: block;
+    float: left;
+   }
+
+/*professor portal*/
+  #professor-portal {
+    margin-top: 0px;
+    width: 350px;
+    height: 400px;
+    background-color: maroon; 
+    color: white; 
+    text-align: center; 
+    border-radius: 25px; 
+    margin-left: 250px;
+    display: block;
+    position: static;
+  }
+
+
+/*button index*/
+.animate
+{
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+  position: relative;
+  padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+  border-radius: 10px;
+  font-family: 'Copperplate Gothic Light Regular';
+  font-size: 25px;
+  color: #F2E9E9;
+  text-decoration: none; 
+  color: #F2E9E9;
+ 
+}
+
+.red
+{
+  background-color: #560303;
+  border-bottom: 5px solid #959393;
+  text-shadow: 0px -2px #BD3E31;
+}
+
+.action-button:active
+{
+  transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+  border-bottom: 1px solid;
+  text-align: center;
+}
+
+ #professor-portal_1 {
+
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 350px;
+    height: 400px;
+    background-color: maroon; 
+    color: white; 
+    text-align: center; 
+    border-radius: 25px; 
+
+    display: block;
+    float: left;
+   }
+
+   #student-portal_1 {
+
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 350px;
+    height: 400px;
+    background-color: maroon; 
+    color: white; 
+    text-align: center; 
+    border-radius: 25px; 
+
+    display: block;
+    float: left;
+   }
+#inputs{
+  
+  background-color: #F2E9E9 ;
+  color: #F2E9E9;
+  border-radius: 5px;
+}
+
+ #professor-portal_2 {
+
+    margin-top: 10px;
+    margin-left: 300px;
+    width: 800px;
+    height: 850px;
+    background-color: maroon; 
+    color: white; 
+    text-align: center; 
+    border-radius: 25px; 
+
+    display: block;
+    float: left;
+   }
+
+   #student-portal_2 {
+
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 350px;
+    height: 400px;
+    background-color: maroon; 
+    color: white; 
+    text-align: center; 
+    border-radius: 25px; 
+
+    display: block;
+    float: left;
+   }
+/*textbox index*/
+.inputs {
+    width: 270px;
+    padding: 15px 25px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9D9E9E;
+    text-shadow: 1px 1px 0 rgba(256, 256, 256, 1.0);
+    background: #CCCCCC;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+}
+
+.inputs:focus {
+    background: #DFE9EC;
+    color: #414848;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    outline: 0;
+}
+
+.inputs:hover {
+    background: #DFE9EC;
+    color: #414848;
+}
+
+
+/*login button*/
+   .login_button {
+  background: #b40d0d;
+  background: -moz-linear-gradient(top,#b40d0d 0%,#CFC9C9 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#b40d0d),color-stop(100%,#008DB8));
+  background: -webkit-linear-gradient(top,#b40d0d 0%,#CFC9C9 100%);
+  background: -o-linear-gradient(top,#b40d0d 0%,#CFC9C9 100%);
+  background: -ms-linear-gradient(top,#b40d0d 0%,#CFC9C9 100%);
+  background: linear-gradient(top,#b40d0d 0%,#CFC9C9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b40d0d',endColorstr='#008DB8',GradientType=0);
+  padding:8px 20px;
+  color:#cfebf3;
+  font-family:'Copperplate Gothic Light Regular';
+  font-size:17px;
+  border-radius:40px;
+  -moz-border-radius:40px;
+  -webkit-border-radius:40px;
+  border:1px solid #7e0e09
+}
+
+/*save button for prof registration*/
+   .save_button {
+  background: #b40d0d;
+  background: -moz-linear-gradient(top,#b40d0d 0%,#CFC9C9 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#b40d0d),color-stop(100%,#008DB8));
+  background: -webkit-linear-gradient(top,#b40d0d 0%,#CFC9C9 100%);
+  background: -o-linear-gradient(top,#b40d0d 0%,#CFC9C9 100%);
+  background: -ms-linear-gradient(top,#b40d0d 0%,#CFC9C9 100%);
+  background: linear-gradient(top,#b40d0d 0%,#CFC9C9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b40d0d',endColorstr='#008DB8',GradientType=0);
+  padding:8px 20px;
+  color:#cfebf3;
+  font-family:'Copperplate Gothic Light Regular';
+  font-size:17px;
+  border-radius:40px;
+  -moz-border-radius:40px;
+  -webkit-border-radius:40px;
+  border:1px solid #7e0e09
+}
+
+/*Cancel button for prof registration*/
+   .cancel_button {
+  background: #b40d0d;
+  background: -moz-linear-gradient(top,#b40d0d 0%,#CFC9C9 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#b40d0d),color-stop(100%,#008DB8));
+  background: -webkit-linear-gradient(top,#b40d0d 0%,#CFC9C9 100%);
+  background: -o-linear-gradient(top,#b40d0d 0%,#CFC9C9 100%);
+  background: -ms-linear-gradient(top,#b40d0d 0%,#CFC9C9 100%);
+  background: linear-gradient(top,#b40d0d 0%,#CFC9C9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b40d0d',endColorstr='#008DB8',GradientType=0);
+  padding:8px 20px;
+  color:#cfebf3;
+  font-family:'Copperplate Gothic Light Regular';
+  font-size:17px;
+  border-radius:40px;
+  -moz-border-radius:40px;
+  -webkit-border-radius:40px;
+  border:1px solid #7e0e09
+}
+
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+
+
+}
+
+body {
+font-family:Arial, Sans-Serif;
+background: url('../images/gray-background-1.jpg') no-repeat center center fixed;
+}
+ 
+#container 
+{width:600px; 
+margin:0 
+auto;
+font-color:black;}
+/* Nicely lines up the labels. */
+form label {display:inline-block; width:140px;}
+ 
+/* You could add a class to all the input boxes instead, if you like. That would be safer, and more backwards-compatible */
+form input[type="text"] {color: black; width:300px; border-radius: 10px;background-color: #F2E9E9}
+form input[type="password"] {color: black; width:300px; border-radius: 10px;}
+form input[type="email"] {width:160px;}
+form input[type="gender"] {color: black; width:300px;}
+form input[type="checkbox"] {color: black;}
+form input[for="birthday"] {color: black;}
+form input[type="age"] {color: black;}
+form input[type="contact number"] {color: black;}
+form input[type="address"] {color: black;}
+form input[type="position"] {color: black;}
+form input[type="department"] {color: black;}
+ 
+form .line {clear:both;}
+form .line.submit {text-align:right;}
+ 
+
