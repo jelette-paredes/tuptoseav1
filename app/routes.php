@@ -1,13 +1,5 @@
 <?php
 // Route::get('users','UserController@index');
-
-//Eto route for Index talaga
-Route::get('/', function()
-{
-	return View::make('tuptosea.index');
-});
-
-
 // // Route::get('/', 'FriendsController@getAddFriend');
 // Route::post('/',function()
 // {
@@ -26,12 +18,18 @@ Route::get('/', function()
 // 	return 'Done!';
 // });
 
-//for testing 1/5/2015 
-// Route::get('login', 'SessionsController@create');
-// Route::get('logout', 'SessionsController@destroy');
-// Route::resource('sessions', 'SessionsController');
-// Route::resource('users','UsersController');
-// Route::get('admin', function()
-// {
-// return 'Admin Page';
-// })->before('auth');
+//Homepage Routing
+Route::get('/', function()
+{
+	return View::make('tuptosea.index');
+});
+
+// for testing 1/5/2015 
+Route::get('login', 'SessionsController@create');
+Route::get('logout', 'SessionsController@destroy');
+Route::resource('sessions', 'SessionsController');
+Route::resource('users','UsersController');
+Route::get('admin', function()
+{
+return 'Admin Page';
+})->before('auth');

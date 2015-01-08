@@ -1,8 +1,5 @@
 
 @extends('layouts.default')
-@section('content')
-<a href="#" class="navbar-brand"><i class="glyphicon glyphicon-home"></i></a>
-@stop
 @section('sectionz')
 <h1>Log In</h1>
 {{ Form::open(['route' => 'sessions.store']) }}
