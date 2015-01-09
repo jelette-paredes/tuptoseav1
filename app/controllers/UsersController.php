@@ -19,7 +19,14 @@ class UsersController extends \BaseController {
 
 		return View::make('users',['users' => $users]);
 	}
-
+	public function ProfessorLogin()
+	{
+		return View::make('tuptosea.professor.ProfessorLogin');
+	}
+	public function StudentLogin()
+	{
+		return View::make('tuptosea.student.StudentLogin');
+	}
 
 	/**
 	 * Show the form for creating a new resource.

@@ -25,11 +25,10 @@ Route::get('/', function()
 });
 Route::get('ProfessorSignUp', function()
 {
-	return View::make('tuptosea.users.ProfessorSignUp');
+	return View::make('tuptosea.professor.ProfessorSignUp');
 });
-Route::get('logout', 'SessionsController@destroy');
-Route::resource('sessions', 'SessionsController');
-Route::resource('users','UsersController');
+// Route::get('logout', 'SessionsController@destroy');
+// Route::resource('sessions', 'SessionsController');
 // ===============================================
 // LOGIN SECTION =================================
 // ===============================================
@@ -42,11 +41,11 @@ Route::resource('users','UsersController');
 // {
 // 	return View::make('tuptosea.users.StudentLogin');
 // });
-Route::get('ProfessorLogin','SessionsController@ProfessorLogin');
-Route::get('StudentLogin','SessionsController@StudentLogin');
+Route::get('ProfessorLogin','UsersController@ProfessorLogin');
+Route::get('StudentLogin','UsersController@StudentLogin');
 // Route::get('login/professor','SessionsController@create')->where('users','2');
 // use the function (app/controllers/SessionsController)
-
+Route::resource('users','UsersController');
 
 
 
