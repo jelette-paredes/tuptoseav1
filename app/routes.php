@@ -23,13 +23,34 @@ Route::get('/', function()
 {
 	return View::make('tuptosea.index');
 });
-
-// for testing 1/5/2015 
-Route::get('login', 'SessionsController@create');
+Route::get('ProfessorSignUp', function()
+{
+	return View::make('tuptosea.users.ProfessorSignUp');
+});
 Route::get('logout', 'SessionsController@destroy');
 Route::resource('sessions', 'SessionsController');
 Route::resource('users','UsersController');
-Route::get('admin', function()
-{
-return 'Admin Page';
-})->before('auth');
+// ===============================================
+// LOGIN SECTION =================================
+// ===============================================
+// show the login pages
+// Route::get('/login/professor', function()
+// {
+// 	return View::make('tuptosea.users.ProfessorLogin');
+// });
+// Route::get('/login/student', function()
+// {
+// 	return View::make('tuptosea.users.StudentLogin');
+// });
+Route::get('ProfessorLogin','SessionsController@ProfessorLogin');
+Route::get('StudentLogin','SessionsController@StudentLogin');
+// Route::get('login/professor','SessionsController@create')->where('users','2');
+// use the function (app/controllers/SessionsController)
+
+
+
+
+// Route::get('admin', function()
+// {
+// return 'Admin Page';
+// })->before('auth');

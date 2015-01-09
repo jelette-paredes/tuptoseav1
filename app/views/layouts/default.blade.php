@@ -14,6 +14,7 @@
 	<!-- {{HTML::script('designosea/js/bootstrap.js')}} -->
 	<!-- {{HTML::script('designosea/src/jquery.multiselect.js')}} -->
     <!-- {{HTML::script('designosea/js/bootstrap.min.js')}} -->
+
     </style>
 </head>
 <body>
@@ -38,7 +39,7 @@
 
 <br><br>
 @yield('content')
-	{{HTML::script('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')}}
-	{{HTML::script('designosea/js/bootstrap.min.js')}}
+    {{HTML::script('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')}}
+    {{HTML::script('designosea/js/bootstrap.min.js')}}
 </body>
 </html>
