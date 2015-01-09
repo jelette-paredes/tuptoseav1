@@ -23,6 +23,10 @@ class UsersController extends \BaseController {
 	{
 		return View::make('tuptosea.professor.ProfessorLogin');
 	}
+	public function ProfessorSignUp()
+	{
+		return View::make('tuptosea.professor.ProfessorSignUp');
+	}
 	public function StudentLogin()
 	{
 		return View::make('tuptosea.student.StudentLogin');

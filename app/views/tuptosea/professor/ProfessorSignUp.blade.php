@@ -3,7 +3,7 @@
 @section('content')
 
     <td>
-     {{ Form::open(array('route' => 'admin.pages.store','style' => 'overflow-y:scroll;height:500px')) }}
+     {{ Form::open(array('route' => 'users.index','style' => 'overflow-y:scroll;height:500px')) }}
     <!--     <form style ="overflow-y:scroll;height:500px" > -->
         <br>
        
